@@ -4,7 +4,6 @@ const router   = express.Router();
 const static = require('../controllers/static');
 const registrations = require('../controllers/registrations');
 const sessions = require('../controllers/sessions');
-const pictures = require('../controllers/pictures');
 
 router.route('/register')
   .get(registrations.new)
