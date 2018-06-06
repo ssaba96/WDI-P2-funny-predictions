@@ -2,9 +2,11 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
 const userSchema = new mongoose.Schema({
+  name: String,
   username: String,
   email: { type: String, unique: true, required: true},
-  password: { type: String, required: true }
+  password: { type: String, required: true },
+  zodiacSign: String
 },{
   timestamps: true
 });
@@ -12,6 +14,7 @@ const userSchema = new mongoose.Schema({
 userSchema.methods.validatePassword = function(password){
   return bcrypt.compareSync(password, this.password);
 };
+
 
 userSchema.pre('save', function(next){
   if(this.isModified('password')){
@@ -33,5 +36,3 @@ userSchema.pre('validate', function(next){
   }
   next();
 });
-
-module.exports = mongoose.model('User', userSchema);
