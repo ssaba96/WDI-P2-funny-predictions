@@ -116,7 +116,7 @@ div.item{
   margin-left: 30px;
 }
 .image:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .star-links{
