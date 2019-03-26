@@ -1,5 +1,5 @@
 {
-  "name": "express-authentication",
+  "name": "WDI-P2-funny-predictions",
   "version": "1.0.0",
   "description": "A lesson to encrypt passwords with bcrypt and mongoose.",
   "main": "index.js",
