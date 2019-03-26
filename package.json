@@ -2,7 +2,7 @@
   "name": "express-authentication",
   "version": "1.0.0",
   "description": "A lesson to encrypt passwords with bcrypt and mongoose.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
