@@ -2,6 +2,8 @@
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+##### [Visit website](https://ssaba96.github.io/WDI-P2-funny-predictions/)
+
 ### Overview
 
 A full-stack authentication application that lists out zodiac signs for users and on selecting their sign, they are given a prediction for the day.
@@ -30,10 +32,10 @@ Your app must:
 For this project I have used the following technologies:
 
 - HTML
-- SCSS 
-- jQuery 
+- SCSS
+- jQuery
 - RESTful
-- Mongo 
+- Mongo
 - Mongoose
 - AJAX
 
@@ -82,4 +84,3 @@ Features I would have liked to include:
 
 - I would like to add styling and animations.
 - I would like to add a form feature where user is given prediction according to choices they select.
-
